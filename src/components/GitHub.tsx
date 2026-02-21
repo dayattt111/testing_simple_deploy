@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './GitHub.css'
 
-const GITHUB_USERNAME = 'saidsudirman'
+const GITHUB_USERNAME = 'barce860'
 
 interface GitHubUser {
   login: string
