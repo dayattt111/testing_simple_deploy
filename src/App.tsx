@@ -1,5 +1,6 @@
 import './App.css'
 import dayatPhoto from './assets/dayat.jpg'
+import GitHub from './components/GitHub'
 // import GitHub from './components/GitHub'
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
           <div className="hero-photo">
             <img src={dayatPhoto} alt="Dayat" />
           </div>
-          <h1>Halo, Saya <span className="highlight">Dayat</span></h1>
+          <h1>Halo, Saya <span className="highlight">Fatih</span></h1>
           <p className="hero-subtitle">Web Developer & Designer</p>
           <button className="cta-button" onClick={() => scrollTo('contact')}>
             Hubungi Saya
@@ -93,7 +94,7 @@ function App() {
         </div>
       </section>
 
-      {/* <GitHub /> */}
+      <GitHub />
 
       {/* Contact Section */}
       <section id="contact" className="contact-section">
