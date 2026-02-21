@@ -1,7 +1,6 @@
 import './App.css'
 import dayatPhoto from './assets/dayat.jpg'
 import GitHub from './components/GitHub'
-// import GitHub from './components/GitHub'
 
 function App() {
   const scrollTo = (id: string) => {
