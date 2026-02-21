@@ -1,5 +1,5 @@
 import './App.css'
-import Photo from './assets/profil.png'
+import dayatPhoto from './assets/dayat.jpg'
 import GitHub from './components/GitHub'
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
           <div className="hero-photo">
             <img src={Photo} alt="Barce" />
           </div>
-          <h1>Halo, Saya <span className="highlight">Gole (Gondrong le)</span></h1>
+          <h1>Halo, Saya <span className="highlight">Fatih</span></h1>
           <p className="hero-subtitle">Web Developer & Designer</p>
           <button className="cta-button" onClick={() => scrollTo('contact')}>
             Hubungi Saya
