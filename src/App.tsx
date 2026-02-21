@@ -24,7 +24,7 @@ function App() {
       <section id="hero" className="hero-section">
         <div className="hero-content">
           <div className="hero-photo">
-            <img src={dayatPhoto} alt="Dayat" />
+            <img src={Photo} alt="Barce" />
           </div>
           <h1>Halo, Saya <span className="highlight">Fatih</span></h1>
           <p className="hero-subtitle">Web Developer & Designer</p>
@@ -111,7 +111,7 @@ function App() {
 
       {/* Footer */}
       <footer className="footer">
-        <p>&copy; 2026 Dayat. All rights reserved.</p>
+        <p>&copy; 2026 gondromg. All rights reserved.</p>
       </footer>
     </div>
   )
